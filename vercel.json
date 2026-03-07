@@ -1,0 +1,8 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/sale", "destination": "/sale.html" },
+    { "source": "/early", "destination": "/early-access.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
